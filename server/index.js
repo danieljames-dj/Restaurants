@@ -18,6 +18,6 @@ app.use(express.static(buildPath));
 app.get('/*', (req, res) => {
 	res.sendFile(path.join(buildPath, 'index.html'));
 });
-app.listen(process.env.PORT, () => {
-	console.log(`App listening to port %s`, process.env.PORT)
+app.listen(process.env.PORT || 3000, () => {
+	console.log(`App listening to port %s`, process.env.PORT || 3000)
 })
