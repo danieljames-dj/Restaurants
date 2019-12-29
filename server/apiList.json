@@ -1,0 +1,13 @@
+{
+	"":
+		[{
+			"route": "/getRestaurants",
+			"path": "./routes/getRestaurants.js",
+			"method": "GET"
+		},
+		{
+			"route": "/getRestaurantDetails",
+			"path": "./routes/getRestaurantDetails.js",
+			"method": "GET"
+		}]
+}
